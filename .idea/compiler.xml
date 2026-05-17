@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="money-service-kafka.base-domain.main" />
+        <module name="money-service-kafka.base-domain.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="25" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="money-service-kafka.base-domain" options="-parameters" />
+      <module name="money-service-kafka.base-domain.main" options="-parameters" />
+      <module name="money-service-kafka.base-domain.test" options="-parameters" />
+      <module name="money-service-kafka.email-service" options="-parameters" />
+      <module name="money-service-kafka.email-service.main" options="-parameters" />
+      <module name="money-service-kafka.email-service.test" options="-parameters" />
+      <module name="money-service-kafka.order-service" options="-parameters" />
+      <module name="money-service-kafka.order-service.main" options="-parameters" />
+      <module name="money-service-kafka.order-service.test" options="-parameters" />
+      <module name="money-service-kafka.stock-service" options="-parameters" />
+      <module name="money-service-kafka.stock-service.main" options="-parameters" />
+      <module name="money-service-kafka.stock-service.test" options="-parameters" />
+    </option>
+  </component>
+</project>
