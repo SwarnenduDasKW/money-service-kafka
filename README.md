@@ -200,6 +200,12 @@ If you encounter resolution issues, refresh the Gradle cache:
 - Each service subscribes to `order_topic` (except order-service which is the producer)
 - The project uses multi-module Gradle for dependency management
 
+## Use Bruno instead of postman for testing the endpoint
+[money-service-kafka.yml](test/money-service-kafka.yml)
+
+## Install KafkIO 
+- Better visualization of the topics, partitions, messages etc
+
 ## License
 
 This project is provided as-is for educational and development purposes.

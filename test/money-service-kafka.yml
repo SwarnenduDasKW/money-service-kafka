@@ -1,0 +1,44 @@
+opencollection: 1.0.0
+info:
+  name: money-service-kafka
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ''
+      port: ''
+      auth:
+        username: ''
+        password: ''
+      bypassProxy: ''
+items:
+  - info:
+      name: post order message
+      type: http
+      seq: 1
+    http:
+      method: POST
+      url: http://localhost:8081/api/v1/orders
+      body:
+        type: json
+        data: |-
+          {
+            "name":"Samsung Mobile",
+            "qty":2,
+            "price":2000.00
+          }
+      auth: inherit
+    settings:
+      encodeUrl: true
+      timeout: 0
+      followRedirects: true
+      maxRedirects: 5
+bundled: true
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
+    exportedAt: '2026-05-17T16:43:11.851Z'
+    exportedUsing: Bruno
