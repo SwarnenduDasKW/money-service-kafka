@@ -1,0 +1,5 @@
+rootProject.name = 'money-service-kafka'
+include 'base-domain'
+include 'order-service'
+include 'email-service'
+include 'stock-service'
